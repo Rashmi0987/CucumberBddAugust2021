@@ -1,0 +1,6 @@
+base\BasePage.class
+pageObject\JewelryPage.class
+pageObject\ElegantGemstoneNecklaceRentalPage.class
+pageObject\RegisterPage.class
+pageObject\HomePage.class
+pageObject\LoginPage.class
