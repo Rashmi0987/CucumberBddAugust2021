@@ -29,8 +29,8 @@ public class JewelryPage
     {
         jewelryRentBtn.click();
         driver.navigate().refresh();
-//        String getPageName = driver.getPageSource();
-//        System.out.println("Page Name " + getPageName);
+        String getPageName = driver.getPageSource();
+        System.out.println("Page Name " + getPageName);
     }
 
 
