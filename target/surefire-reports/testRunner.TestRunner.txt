@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: testRunner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 27.505 sec
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 20.782 sec <<< FAILURE!
+verify jewelry feature(Jewelry of nopCommerce application)  Time elapsed: 6.327 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <nopCommerce demo store. Elegant Gemstone Necklace (rental)> but was: <nopCommerce demo store. Jewelry>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at steps.StepDefinitions.i_should_be_nevigate_to_elegant_gemstone_necklace_rental_page_ssuccessfully(StepDefinitions.java:221)
+	at ✽.i should be nevigate to Elegant Gemstone Necklace rental page ssuccessfully(file:///H:/Rashmi/Assignment/src/test/java/features/Jewelry.feature:10)
+

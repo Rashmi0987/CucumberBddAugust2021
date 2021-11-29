@@ -1,5 +1,6 @@
 Feature:  Community Poll of nopCommerce application
 
+  @ui
   Scenario:  verify Community Poll
     Given i nevigate to url "https://demo.nopcommerce.com/"
     Then  i should be navigate to home page

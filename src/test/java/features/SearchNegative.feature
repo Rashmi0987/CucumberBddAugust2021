@@ -1,5 +1,6 @@
 Feature: Search product of nopCommerce
 
+  @ui
   Scenario: Verify search product without enter any text
     Given i nevigate to url "https://demo.nopcommerce.com/"
     Then  i should be navigate to home page

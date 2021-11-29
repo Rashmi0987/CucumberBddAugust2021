@@ -5,12 +5,13 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import pageObject.HomePage;
 
+import java.net.MalformedURLException;
+
 public class Hook
 {
 
     @Before
-    public void driverSetup()
-    {
+    public void driverSetup() throws MalformedURLException {
         BasePage.setup();
     }
 

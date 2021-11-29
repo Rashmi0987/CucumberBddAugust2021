@@ -1,5 +1,6 @@
 Feature:  Newsletter Subscription of nopCommerce application
 
+  @ui
   Scenario:  verify Newsletter Subscription with valid credentials
     Given i nevigate to url "https://demo.nopcommerce.com/"
     Then  i should be navigate to home page

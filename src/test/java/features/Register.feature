@@ -8,7 +8,7 @@ Feature: Registration of nopCommerce application
     Then  i should be nevigate to register page
     When  i enter firstName  as "Sara"
     And   i enter lastName  as "Verma"
-    And   i enter Email as "sarav2@nop.com"
+    And   i enter Email as "sarav1@nop.com"
     And   i enter password as "12345678"
     And   i enter confirmPassword as "12345678"
     And   i click on register Button
